@@ -33,7 +33,7 @@ def aws_list(session,substring):
 
 if __name__ == "__main__":
     # Define the substring you are looking for
-    substring = [] #eg. "dev","prod","stg","stage","int"
+    substring = [] #eg. "dev"
 
     # Your AWS credentials and the region
     region_name="<Enter Region>"
